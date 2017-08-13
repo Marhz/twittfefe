@@ -1,0 +1,18 @@
+{
+	"manifest_version": 2,
+	"name": "Twittfefe",
+	"version": "1.0.1",
+	"description": "Make twitter covfefe again",
+	"browser_action": {
+		"default_title": "Make twitter covfefe again"
+	},
+	"icons": {
+		"128": "img/trump_icon.png"
+	},
+	"background": {
+		"scripts": ["background.js"],
+		"persistant": false
+	},
+	"permissions": ["activeTab"]
+}
+
